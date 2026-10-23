@@ -20,3 +20,15 @@ runs/
 *.pem
 *.key
 .env*
+
+# Additional local secrets and source-engine artifacts
+*.unity
+*.asset
+*.pfx
+*.p12
+*.sqlite*
+credentials*
+secrets*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
