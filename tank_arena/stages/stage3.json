@@ -1,0 +1,35 @@
+{
+  "stage": 3,
+  "name": "Timber Line",
+  "skill": "나무 제거 · 탄약 보존 · 직사각형",
+  "provenance": "Independently authored practice map; no source game map data.",
+  "rows": [
+    "R R R R R R R R R R R R",
+    "R R R R R R R R R R R R",
+    "R R R R R R R R R R R R",
+    "M G T G G G T G G G G X",
+    "R R R R R R R R R R R R",
+    "R R R R R R R R R R R R",
+    "R R R R R R R R R R R R",
+    "R R R R R R R R R R R R"
+  ],
+  "units": {
+    "M": {
+      "hp": 100,
+      "normal": 4,
+      "mega": 1
+    },
+    "X": {
+      "hp": 100
+    }
+  },
+  "rules": {
+    "three_stars": 16,
+    "two_stars": 24,
+    "max_turns": 60,
+    "command_timeout": 60,
+    "cipher_shift": 17,
+    "supply_amount": 1,
+    "parity": "practice_unverified"
+  }
+}

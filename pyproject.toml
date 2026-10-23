@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tank-arena-lab"
+version = "0.1.0"
+description = "Offline tank algorithm practice with a persistent TCP exam runner"
+requires-python = ">=3.11"
+dependencies = []
+license = {text = "MIT"}
+
+[project.scripts]
+tank-arena = "tank_arena.server:main"
+
+[tool.setuptools.package-data]
+tank_arena = ["ui/*", "stages/*.json"]
+
+[tool.setuptools.packages.find]
+include = ["tank_arena*"]

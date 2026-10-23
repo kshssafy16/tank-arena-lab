@@ -1,0 +1,37 @@
+{
+  "stage": 4,
+  "name": "Sand Circuit",
+  "skill": "모래 피해 · 생존 경로 · 10×12",
+  "provenance": "Independently authored practice map; no source game map data.",
+  "rows": [
+    "G G G G G G G G G G G X",
+    "G R R R R G R R R R G G",
+    "G G G G G G G G G G R G",
+    "G R R R R R R R R G R G",
+    "G G G G G G G G G G R G",
+    "G G G R R R G R R R G G",
+    "G G G G G G G G G G G G",
+    "G S S S S S S S S S S G",
+    "G G G G G G R G G G G G",
+    "M G G G G G G G G G G G"
+  ],
+  "units": {
+    "M": {
+      "hp": 50,
+      "normal": 4,
+      "mega": 0
+    },
+    "X": {
+      "hp": 90
+    }
+  },
+  "rules": {
+    "three_stars": 25,
+    "two_stars": 38,
+    "max_turns": 80,
+    "command_timeout": 60,
+    "cipher_shift": 17,
+    "supply_amount": 1,
+    "parity": "practice_unverified"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stage": 5,
+  "name": "Supply Relay",
+  "skill": "보급 · 암호 해독 · 독립 탄약",
+  "provenance": "Independently authored practice map; no source game map data.",
+  "rows": [
+    "G G G G G G G G G X",
+    "G R R R R R R R G G",
+    "G G G G G G G R G G",
+    "G R R R R G G R G G",
+    "G G G G G G G G G G",
+    "G R R R R G R R R G",
+    "G G G G G G G G G G",
+    "G G R R R R R R G G",
+    "F G G G G G G G G G",
+    "M G G G G G G G G G"
+  ],
+  "units": {
+    "M": {
+      "hp": 100,
+      "normal": 0,
+      "mega": 0
+    },
+    "X": {
+      "hp": 140
+    }
+  },
+  "rules": {
+    "three_stars": 25,
+    "two_stars": 38,
+    "max_turns": 90,
+    "command_timeout": 60,
+    "cipher_shift": 17,
+    "supply_amount": 1,
+    "parity": "practice_unverified"
+  }
+}

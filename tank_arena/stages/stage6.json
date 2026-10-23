@@ -1,0 +1,74 @@
+{
+  "stage": 6,
+  "name": "Final Traverse",
+  "skill": "동적 지형 · 유닛 점유 · 16×16",
+  "provenance": "Independently authored practice map; no source game map data.",
+  "rows": [
+    "G G G G G G G G G G G G G G G X",
+    "G R R R R R R R R G R R R R G G",
+    "G G G G G G G G G G G G G G R G",
+    "G W W W G R R R R R R R G G R G",
+    "G G G G G G G G G G G G G G R G",
+    "G R R R R R R G R R G R G G R G",
+    "G G G G G G G G G G G G G G G G",
+    "G R G R G R G R G R G R G R G G",
+    "G G G G G G G G T G G G G G G G",
+    "G S S S S S G R R R R R G G G G",
+    "G G G G G G G G G G G G G G G G",
+    "G R R R R R R R R R R R R R G G",
+    "G G G G G G G G E1 G G G G G G G",
+    "G R R R R G R R R R R R R R G G",
+    "F G G G G M2 G G G G G G G G G G",
+    "M G H G G G G G G G G G G G G G"
+  ],
+  "units": {
+    "M": {
+      "hp": 100,
+      "normal": 1,
+      "mega": 0
+    },
+    "X": {
+      "hp": 140
+    },
+    "E1": {
+      "hp": 30
+    },
+    "M2": {
+      "hp": 60
+    },
+    "H": {
+      "hp": 100
+    }
+  },
+  "rules": {
+    "three_stars": 40,
+    "two_stars": 58,
+    "max_turns": 120,
+    "command_timeout": 60,
+    "cipher_shift": 17,
+    "supply_amount": 1,
+    "parity": "practice_unverified"
+  },
+  "terrain_schedule": [
+    {
+      "turn": 6,
+      "changes": [
+        {
+          "row": 5,
+          "col": 0,
+          "tile": "W"
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "changes": [
+        {
+          "row": 2,
+          "col": 4,
+          "tile": "W"
+        }
+      ]
+    }
+  ]
+}
